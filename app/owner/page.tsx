@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Github, Linkedin, Globe } from 'lucide-react'
+import { Github, Linkedin, Globe, Facebook, Ghost } from 'lucide-react'
 import Image from 'next/image'
 
 export default function OwnerPage() {
@@ -10,21 +10,23 @@ export default function OwnerPage() {
         <h1 className="text-4xl font-bold mb-6">About the Owner</h1>
         <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
           <Image 
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3" 
-            alt="Eshwar" 
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/eshwar1.jpg-9eE3IRpCZSnzJ4Vi3NMA5CztLY8GRS.jpeg"
+            alt="Profile photo with vintage motorcycle" 
             width={1974}
             height={1974}
             className="rounded-full w-48 h-48 object-cover"
+            priority
           />
           <div>
             <h2 className="text-2xl font-semibold mb-2">Eshwar</h2>
             <p className="text-lg mb-4">
-              Passionate event management professional and tech enthusiast. Founder of EventPro, 
-              dedicated to revolutionizing the way events are planned and executed.
+              I am a passionate IT professional with expertise in web development, machine learning, and IoT solutions. 
+              I love solving complex problems and creating innovative solutions through technology. My goal is to leverage 
+              cutting-edge tools and frameworks to make a positive impact in the tech world.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <Button asChild variant="outline">
-                <Link href="https://eshwar.xyz" target="_blank" rel="noopener noreferrer">
+                <Link href="https://eshwargajula31.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
                   <Globe className="mr-2 h-4 w-4" /> Website
                 </Link>
               </Button>
@@ -38,6 +40,16 @@ export default function OwnerPage() {
                   <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                 </Link>
               </Button>
+              <Button asChild variant="outline">
+                <Link href="https://facebook.com/gajula.eshwar.14" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="mr-2 h-4 w-4" /> Facebook
+                </Link>
+              </Button>
+              <Button asChild variant="outline">
+                <Link href="https://snapchat.com/add/find.eshwar/" target="_blank" rel="noopener noreferrer">
+                  <Ghost className="mr-2 h-4 w-4" /> Snapchat
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
@@ -45,25 +57,27 @@ export default function OwnerPage() {
           <section>
             <h3 className="text-xl font-semibold mb-2">Background</h3>
             <p>
-              With over a decade of experience in the event management industry, I've witnessed firsthand the challenges 
-              faced by event organizers. This inspired me to create EventPro, a comprehensive platform that simplifies 
-              event planning and execution.
+              I am a passionate IT professional with a background in computer science engineering. My journey began 
+              with an interest in web development, where I gained hands-on experience building various projects. 
+              Over time, I expanded my skills into machine learning and IoT development, creating data-driven models 
+              and smart monitoring systems to solve real-world problems.
             </p>
           </section>
           <section>
             <h3 className="text-xl font-semibold mb-2">Vision for EventPro</h3>
             <p>
-              My vision for EventPro is to empower event organizers with cutting-edge technology, enabling them to create 
-              unforgettable experiences for their attendees. We're constantly innovating to stay ahead of industry trends 
-              and provide the best possible solutions for our clients.
+              My vision is to harness the power of technology to build innovative solutions that have a tangible 
+              impact on everyday life. Whether it's simplifying complex tasks, optimizing processes, or driving 
+              technological advancements in various fields, I am committed to continuously learning and applying new 
+              technologies to solve meaningful problems.
             </p>
           </section>
           <section>
             <h3 className="text-xl font-semibold mb-2">Beyond EventPro</h3>
             <p>
-              When I'm not working on improving EventPro, you can find me speaking at industry conferences, mentoring 
-              aspiring entrepreneurs, or exploring the latest advancements in technology. I'm always eager to connect 
-              with fellow professionals and discuss ideas to push the boundaries of what's possible in event management.
+              Outside of my professional life, I enjoy exploring new advancements in technology, attending tech meetups, 
+              and collaborating with like-minded professionals. I am also passionate about mentoring and guiding aspiring 
+              tech enthusiasts and helping them grow in their careers.
             </p>
           </section>
         </div>

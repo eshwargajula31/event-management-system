@@ -16,7 +16,7 @@ const eventTypes = [
       "Speaker coordination",
       "Catering services",
     ],
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
   },
   {
     title: "Virtual Events",
@@ -27,7 +27,7 @@ const eventTypes = [
       "Interactive sessions",
       "Digital content delivery",
     ],
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://images.unsplash.com/photo-1609234656388-0ff363383899?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
   },
   {
     title: "Hybrid Events",
@@ -38,7 +38,7 @@ const eventTypes = [
       "Real-time interaction",
       "Comprehensive analytics",
     ],
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
   },
 ]
 

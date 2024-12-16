@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className="grid md:grid-cols-2 gap-8 mb-10">
         <div>
           <p className="text-xl mb-4">
-            EventPro is a leading event management platform dedicated to helping businesses and individuals create unforgettable experiences. With our cutting-edge technology and passionate team, we've been transforming the event industry since 2010.
+            EventPro is a leading event management platform dedicated to helping businesses and individuals create unforgettable experiences. With our cutting-edge technology and passionate team.
           </p>
           <p className="text-xl mb-4">
             Our mission is to simplify event planning and execution, allowing our clients to focus on what matters most - creating meaningful connections and impactful moments.
@@ -20,9 +20,11 @@ export default function AboutPage() {
         </div>
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3" 
+            src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3" 
             alt="EventPro Team" 
             className="rounded-lg shadow-lg"
+            width={2070}
+            height={106}
           />
         </div>
       </div>

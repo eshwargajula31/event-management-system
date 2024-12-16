@@ -47,10 +47,10 @@ export function Features() {
   return (
     <section className="container py-20">
       <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Powerful Features for Event Success
         </h2>
-        <p className="mt-4 text-lg text-muted-foreground">
+        <p className="mt-4 text-base sm:text-lg md:text-xl text-muted-foreground">
           Everything you need to create and manage successful events
         </p>
       </div>
@@ -75,8 +75,8 @@ export function Features() {
                 <feature.icon className="h-12 w-12 text-white" />
               </div>
             </div>
-            <h3 className="mb-2 text-xl font-bold">{feature.title}</h3>
-            <p className="text-muted-foreground">{feature.description}</p>
+            <h3 className="mb-2 text-lg sm:text-xl font-bold">{feature.title}</h3>
+            <p className="text-sm sm:text-base text-muted-foreground">{feature.description}</p>
           </motion.div>
         ))}
       </div>

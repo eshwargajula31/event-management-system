@@ -13,19 +13,19 @@ export function HeroSection() {
       <div className="container relative">
         <div className="grid min-h-[calc(100vh-4rem)] grid-cols-1 gap-10 lg:grid-cols-2">
           <motion.div 
-            className="flex flex-col justify-center gap-6"
+            className="flex flex-col justify-center gap-6 text-center lg:text-left"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
               Corporate Event Management Software
             </h1>
-            <p className="text-lg text-muted-foreground sm:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground">
               Comprehensive Event Management System for In-Person, Virtual & Hybrid Events.
               Enhance Experiences for Organizers, Speakers, Exhibitors, Sponsors & Attendees.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <Button asChild size="lg" className="bg-gradient-to-r from-blue-600 to-green-600">
                 <Link href="/register">
                   Get Started

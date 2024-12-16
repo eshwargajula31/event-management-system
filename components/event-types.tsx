@@ -46,10 +46,10 @@ export function EventTypes() {
   return (
     <section className="container py-20">
       <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Event Types We Support
         </h2>
-        <p className="mt-4 text-lg text-muted-foreground">
+        <p className="mt-4 text-base sm:text-lg md:text-xl text-muted-foreground">
           Choose the perfect event format for your needs
         </p>
       </div>
@@ -63,12 +63,12 @@ export function EventTypes() {
           >
             <Card className="h-full">
               <CardHeader>
-                <Image src={type.image} alt={type.title} width={400} height={300} />
-                <CardTitle>{type.title}</CardTitle>
+                <Image src={type.image} alt={type.title} width={400} height={300} className="w-full h-auto" />
+                <CardTitle className="text-lg sm:text-xl">{type.title}</CardTitle>
                 <CardDescription>{type.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 mb-4">
+                <ul className="space-y-2 mb-4 text-sm sm:text-base">
                   {type.features.map((feature) => (
                     <li key={feature} className="flex items-center">
                       <svg

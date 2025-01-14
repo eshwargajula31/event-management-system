@@ -25,7 +25,7 @@ Explore the application here: [Event Management System](https://event-management
 ## 🛠️ Technology Stack
 
 - **Frontend:** Next.js (React framework)
-- **Styling:** CSS, Tailwind CSS (if used)
+- **Styling:** CSS, Tailwind CSS
 - **Hosting:** Vercel (ensuring fast and reliable delivery)
 
 ---
